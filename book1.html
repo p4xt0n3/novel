@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d19">
+  <script src="device.js"></script>
+  <title>退休后，我在蓝星破获宇宙奇案</title>
+  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="book.css">
+  <link rel="stylesheet" href="reader.css">
+  <link rel="stylesheet" href="device.css">
+</head>
+<body>
+  <div class="sky" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="返回小说系列首页">
+      <img src="icon.png" alt="" width="38" height="38">
+      <span>P4XT0N<span class="brand-cn">小说系列</span></span>
+    </a>
+    <a class="back-link" href="index.html">← <span>返回书架</span></a>
+  </header>
+  <main class="detail">
+    <div class="detail-cover">
+      <img src="book1.png" alt="">
+      <div class="detail-shade"></div>
+      <div class="detail-title"><span>P4XT0N · NOVEL 01</span><h1>退休后，<br>我在蓝星<br>破获宇宙奇案</h1><i></i><p>一场来自群星的谜案</p></div>
+    </div>
+    <section class="detail-copy">
+      <p class="eyebrow"><span>THE P4XT0N COLLECTION</span><b>BOOK 01</b></p>
+      <h2>退休后，我在蓝星<br><em>破获宇宙奇案</em></h2>
+      <div class="detail-line"></div>
+      <p class="genre">科幻 <span>·</span> 悬疑</p>
+      <p class="created-date">创建于 - 15/10/2026</p>
+      <p class="detail-note" id="saved-position">尚未开始阅读</p>
+      <button class="return-button start-reading" id="start-reading" type="button">开始阅读 <span>↗</span></button>
+    </section>
+  </main>
+  <footer><span>P4XT0N</span><span>一个故事宇宙</span></footer>
+  <section class="reader" id="reader" aria-hidden="true" aria-label="小说阅读器">
+    <header class="reader-header">
+      <button class="reader-toggle" id="reader-toggle" type="button" aria-expanded="true" aria-controls="chapter-sidebar"><span class="menu-icon">☰</span><span>目录</span></button>
+      <div class="reader-bookmark"><img src="icon.png" alt=""><span>退休后，我在蓝星破获宇宙奇案</span></div>
+      <button class="reader-exit" id="reader-close" type="button">退出书籍 <span>×</span></button>
+    </header>
+    <div class="reader-layout" id="reader-layout">
+      <aside class="reader-sidebar" id="chapter-sidebar" aria-label="章节目录">
+        <div class="sidebar-heading">
+          <span>阅读工具</span>
+          <button class="chapter-list-toggle" id="chapter-list-toggle" type="button" aria-expanded="true" aria-controls="chapter-list">章节目录 <span>⌄</span></button>
+        </div>
+        <div class="sidebar-tools">
+          <button class="sidebar-tool" id="download-chapters" type="button"><span>↓</span> 下载章节 ZIP</button>
+          <button class="sidebar-tool" id="auto-scroll-toggle" type="button"><span>⇣</span> 开始自动滚动</button>
+          <button class="sidebar-tool" id="voice-toggle" type="button"><span>◖</span> 男声朗读</button>
+          <p class="tool-status" id="tool-status" aria-live="polite"></p>
+        </div>
+        <nav class="chapter-list" id="chapter-list" aria-label="选择章节"></nav>
+      </aside>
+      <main class="reader-main">
+        <div class="reading-progress" id="reading-progress">第 1 章 · 0%</div>
+        <article class="reader-content" id="reader-content" tabindex="0" aria-label="小说正文">
+          <h1 id="chapter-title">第 1 章</h1>
+          <div class="novel-text" id="novel-text"></div>
+          <div class="reader-empty" id="reader-empty" hidden></div>
+          <button class="chapter-next" id="chapter-next" type="button">下一章 <span>↓</span></button>
+        </article>
+      </main>
+    </div>
+  </section>
+  <script type="module" src="reader.js"></script>
+</body>
+</html>
